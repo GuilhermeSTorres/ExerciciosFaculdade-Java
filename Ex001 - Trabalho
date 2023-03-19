@@ -1,0 +1,29 @@
+/*
+ * Faça um algoritmo/programa que leia os valores A, B, C e imprima na tela se a soma de A + B é menor que C
+ */
+package com.mycompany.exerciciosfaculdade;
+import java.util.Scanner;
+/**
+ *
+ * @author Guilherme
+ */
+public class ex003 {
+    public static void main(String[] args) {
+        Scanner teclado = new Scanner(System.in);
+        int a, b, c, soma;
+        System.out.println("Digite o valor de A: ");
+        a = teclado.nextInt();
+        System.out.println("Digite o valor de B: ");
+        b = teclado.nextInt();
+        System.out.println("Digite o valor de C: ");
+        c = teclado.nextInt();
+        soma = a+b;
+        
+        if (soma < c){
+            System.out.printf("O valor de A+B é igual á %d", soma);
+            
+        }else{
+            System.out.println("O valor de C é menor que a soma entre A e B");
+        }
+    }
+}
