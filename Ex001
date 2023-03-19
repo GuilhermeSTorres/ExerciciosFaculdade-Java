@@ -1,5 +1,5 @@
 /*
- * Exercicio de pagamento de boletos com desconto de salario
+ * Exercicio de pagamento de boletos com desconto de salarioad
  */
 package com.mycompany.exerciciosfaculdade;
 import java.util.Scanner;
