@@ -1,0 +1,33 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package exercicios004;
+import java.util.Scanner;
+/**
+ *
+ * @author 62310463
+ */
+public class Exercicios004 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Scanner teclado = new Scanner(System.in);
+        int a, dobro, triplo;
+        System.out.println("Digite o valor de A: ");
+        a = teclado.nextInt();
+        if (a > 0){
+            dobro = a*2;
+            System.out.printf("O dobro de %d é de %d", a, dobro);
+        }else if (a < 0){
+            triplo = a*3;
+            System.out.printf("O triplo de %d é de %d", a, triplo);
+        }else{
+            System.out.println("Voce digitou um valor igual a zero!");
+        }
+    }
+    
+}
