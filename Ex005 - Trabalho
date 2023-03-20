@@ -1,0 +1,41 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package exercicios005;
+import java.util.Scanner;
+/**
+ *
+ * @author 62310463
+ */
+public class Exercicios005 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        Scanner teclado = new Scanner(System.in);
+        float n1, n2, n3, media;
+               System.out.println("digite o valor da primeira nota: ");
+        n1 = teclado.nextInt ();
+        System.out.println("digite o valor da segunda nota: ");
+        n2 = teclado.nextInt();
+        System.out.println("digite o valor da terceira nota: ");
+        n3 = teclado.nextInt();
+        media = (n1+n2+n3)/3;
+        System.out.println("a media é: "+ media);
+        if (media >= 0 && media <= 3){
+                System.out.println("reprovado, nota: "+ media);
+                }else if (media >= 3 && media <= 7){
+                    System.out.println("exame final, nota: "+ media);
+                } else if (media >= 7 && media <= 10) {
+                    System.out.println("aprovado, nota: "+ media);
+                }
+                    
+    
+     
+    }
+    
+}
