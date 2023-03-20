@@ -1,0 +1,36 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package exercicios003;
+import java.util.Scanner;
+/**
+ *
+ * @author 62310463
+ */
+public class Exercicios003 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Scanner teclado = new Scanner(System.in);
+        int a, b, c;
+        System.out.println("Digite o valor de A: ");
+        a = teclado.nextInt();
+        System.out.println("Digite o valor de B: ");
+        b = teclado.nextInt();
+        if (a == b){
+            c = a+b;
+            System.out.printf("A soma de A+B é igual a %d", c);
+        }else if(a < b){
+            c = a*b;
+            System.out.printf("A multiplicação é de %d ", c);
+        }else{
+            c = a*b;
+            System.out.printf("A multiplicação é de %d", c);
+        }
+    }
+    
+}
